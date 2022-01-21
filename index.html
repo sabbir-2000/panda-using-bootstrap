@@ -14,7 +14,7 @@
 <body>
     <!-- navbar start -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="" class="d-inline-block align-text-top">
@@ -30,15 +30,19 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
-                        </li>
+
 
                         <li class="nav-item">
-                            <a class="nav-link disabled">Contact Us</a>
+                            <a class="nav-link" href="#Shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">About Us</a>
+                            <a class="nav-link" href="#Bags">Bags</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Subscribe">Subscribe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.linkedin.com/in/sabbir2000/">Contact Us</a>
                         </li>
                     </ul>
 
@@ -150,7 +154,8 @@
             </div>
         </div>
         <!-- Shoes -->
-        <section class="container">
+        <section class="container" id="Shoes">
+            <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                     <div class="card border-0 shadow-lg h-100">
@@ -194,7 +199,7 @@
             </div>
         </section>
         <!-- Bagpack -->
-        <section class="container my-5">
+        <section class="container my-5" id="Bags">
             <h1>Bagpack</h1>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -239,7 +244,7 @@
             </div>
         </section>
         <!-- subscribe -->
-        <section style="height: 300px;"
+        <section style="height: 300px;" id="Subscribe"
             class="container d-flex justify-content-center align-items-center bg-info rounded-3">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
@@ -249,7 +254,8 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="my-5 text-center">
+        <p>©2022,Panda Commerce All rights reserved Sofia,Bulgaria</p>
 
     </footer>
 
